@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(backgg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.container_data {
+  display: block;
+  position: relative;
+  top: 5.5rem; }
+
+.dataLists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1; }
+
+table {
+  border: 5px solid black;
+  border-spacing: 0;
+  border-radius: 1rem;
+  box-shadow: 15px -10px #49444471;
+  background-color: whitesmoke;
+  position: relative;
+  z-index: 10; }
+
+tr {
+  color: black;
+  border-collapse: collapse;
+  position: relative;
+  z-index: 100;
+  border: 1px solid black; }
+
+tr:hover {
+  background-color: yellow; }
+
+th {
+  border: 1px solid black;
+  padding: 1.4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  border-collapse: collapse;
+  border-collapse: collapse; }
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  position: relative;
+  border-collapse: collapse;
+  z-index: -1; }
+
+.dataList_title {
+  text-align: left;
+  padding-left: 8px; }
+
+.header {
+  display: flex;
+  position: fixed;
+  background-color: #788580;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  
+  z-index: 1000; }
+
+h1 {
+  font-size: 4rem; }
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  text-align: center; 
+  flex-direction: column;}
+
+.summary {
+  margin-left: -5rem;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2rem; }
+
+.actions {
+  display: flex;
+  height: 3rem;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle; }
+  .actions_input {
+    color: #3b6a6b;
+    vertical-align: middle;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 5px;
+    outline: none;
+    border: none; }
+  .actions_dropdown {
+    color: #3b6a6b;
+    vertical-align: middle;
+    width: 10rem;
+    border-radius: 5px;
+    outline: none; }
+
+.actions__container {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(backgg.jpg);//linear-gradient(to left bottom, #37353894,rgba(68, 65, 67, 0.466));
+  //  background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+   // background-position: top;
+    background-attachment: fixed;
+}

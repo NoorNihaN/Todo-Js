@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Notes App</title>
+        <!-- <link href="/images/favicon.png" rel="icon">-->
+         <link href="/css/style.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <header class="header">
+            <div id = "header" class="container">
+                <h1 class="header__title">Todo App</h1>
+                <!-- <h2 class="header__subtitle">Take notes and never forget</h2> -->
+            </div>
+        
+        <div class="actions">
+            <div class="actions__container">
+                <input id="search-text" type="text" class="actions_input" placeholder="Search">
+                <select id="search-by" class="actions_dropdown">
+                    <option value="byAsc">Sort by Asc</option>
+                    <option value="byDes">Sort by Des</option>
+                    <option value="byID">Sort by Id</option>
+                </select>
+            </div>
+        </header>
+        </div>
+        <div class="container_data">
+            <div id="dataLists" class= "dataLists"></div>
+        </div>    
+        <script src="/scripts/bundle.js"></script>
+    </body>
+</html>

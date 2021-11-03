@@ -1,0 +1,142 @@
+
+.container_data
+{
+    display: block;
+   position: relative;
+   top: 5.5rem;
+}
+.dataLists
+{
+   //margin-top: 10rem;
+    display: flex;
+    //background-color: rgb(46, 170, 129);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    //position: relative;
+    z-index: -1;
+    //background-color: blanchedalmond;
+    
+   
+}
+//.dataLists:hover{background-color: aqua;}
+
+table{
+    border:5px solid rgb(0, 0, 0);
+    //border-collapse: collapse;
+    border-spacing: 0;
+   
+    border-radius: 1rem;
+    box-shadow: 15px -10px #49444471;
+
+   // position: relative;
+   // z-index: 100;
+    background-color:whitesmoke;
+   // transition: all 1s ease-out;
+    
+    //background-color: blanchedalmond;
+   position: relative;
+    z-index: 10;
+}
+//table:hover {background-color: yellow;}
+
+
+ tr
+{
+    color: black;
+    border-collapse: collapse;
+    position: relative;
+    z-index: 100;
+    
+    border: 1px solid black;
+}
+tr:hover {background-color: yellow;}
+//tr:nth-child(even){background-color: #c7bbbb;}
+th
+{
+    border: 1px solid black;
+   padding: 1.4rem;
+   font-size: 3rem;
+   font-weight: bold;
+   color: black;
+   border-collapse: collapse;
+   border-collapse: collapse;
+  // position: sticky;
+  // position: absolute;
+ // z-index: 100000;
+}
+td
+{
+    border: 1px solid black;
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 400;
+   position: relative;
+   border-collapse: collapse;
+   z-index: -1;
+
+}
+.dataList_title
+{
+    text-align: left;
+    padding-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container_data
+// {
+//     display: flex;
+//     //background-color: rgb(46, 170, 129);
+//     justify-content: center;
+//     align-items: center;
+
+// }
+// .dataLists
+// {
+//     display: flex;
+//    // background-color: rgb(46, 170, 129);
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+   
+// }
+// .dataList
+// {
+//     margin-top: 1rem;
+//     display: flex;
+//   //  background-color: rgb(151, 128, 70);
+//     border: 5px solid rgb(40, 87, 87);
+//     flex-direction: column;
+//     &_status
+//     {
+//         display: flex;
+//        justify-content: space-around;
+//        align-items: center;
+//       //  background-color: darkorchid;
+      
+//     }
+// }
